@@ -11,10 +11,11 @@ in spite of no code optimization having been applied.
 The original files are extracted from a larger project called [barmesh](https://bitbucket.org/goatchurch/barmesh) 
 that can be used for generating contour slices of an STL file for a given diameter tool.
 
-Usage: stl2png.py [options]
+python stl2png.py -s file.stl --nslices=10
 
-Slices STL files into black and white PNG bitmaps as a batch or on demand
+(or run as pypy stl2png.py for more speed)
 
+```
 Options:
   -h, --help            show this help message and exit
   -s FILE, --stl=FILE   Input STL file
@@ -37,6 +38,7 @@ Options:
                         Zlevel values to slice at
   -i, --inputs          Wait for lines from input stream of form 'zvalue
                         [pngfile]\n'
+```
 
 For more speed try running with pypy
 
@@ -45,6 +47,3 @@ For more speed try running with pypy
 
 This code is released under [BSD license](http://choosealicense.com/licenses/bsd-2-clause/), 
 which permits you to do anything you like with it except blame me for the consequences.
-
-
-
