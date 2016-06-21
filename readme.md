@@ -2,7 +2,7 @@
 
 This program is for generating black and while PNG files from an STL file at particular z heights.
 
-It has applications to [light stereolithography] where a projector shines an image upwards 
+It has applications to [SLA stereolithography](http://3dprintingfromscratch.com/common/types-of-3d-printers-or-3d-printing-technologies-overview/#sla) where a projector shines an image upwards 
 through the base of a glass dish filled with a liquid that solidifies where the light touches it.  
 The solid printed part is drawn upwards out of the liquid like the reverse of melting ice.
 
